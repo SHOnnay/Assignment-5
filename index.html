@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emergency Service</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
@@ -12,13 +13,13 @@
 <body class="bg-white">
 
     <!-- navbar -->
-    <section class="navbar shadow px-4">
+    <section class="navbar px-6">
 
         <!-- left side -->
         <div class="flex-1">
             <div class="flex items-center gap-2 h-[50px] w-[50px]">
                 <img src="./B12-A5-Emergency-Hotline/assets/logo.png" alt="Logo" class="h-[50px] w-[50px]" />
-                <span class="text-xl font-semibold text-[#006747]">Emergency <br>Service</span>
+                <span class="text-xl font-semibold text-[#006747]">Emergency<br>Service</span>
             </div>
         </div>
 
@@ -60,12 +61,100 @@
         <h1 class="text-3xl font-bold">Emergency Service Directory</h1>
 
         <!-- subtitle -->
-        <p class="mt-2 text-sm md:text-base opacity-90 max-w-2xl mx-auto">
+        <p class="mt-2 text-sm opacity-90 max-w-2xl mx-auto">
             Government Emergency Services at Your Fingertips — A Project by Government of the People's Republic of
             Bangladesh
         </p>
     </section>
 
+
+    <!-- ############### -->
+    <!-- main -->
+    <main>
+        <section class="cards bg-[#f5fff6]">
+            <div class="max-w-full grid grid-cols-4 gap-6 p-5">
+                <!-- cards  -->
+                <!-- left side for cards -->
+                <div class="col-span-3">
+                    <div class="grid grid-cols-3 gap-6">
+                        <!-- card 1 -->
+                        <div class="bg-white rounded-xl shadow-md p-4 flex flex-col h-[360px]">
+                            <div class="flex justify-between items-start py-4">
+                                <img src="./B12-A5-Emergency-Hotline/assets/emergency.png" alt="Emergency"
+                                    class="h-10 w-10" />
+
+                                <!-- heart Icon -->
+                                <button class="text-gray-400">♡</button>
+                            </div>
+
+                            <h3 class="mt-2 font-semibold">National Emergency Number</h3>
+                            <p class="text-sm text-gray-500">National Emergency</p>
+                            <p class="text-2xl font-bold mt-2">999</p>
+                            <p class="flex justify-center items-center bg-gray-100 px-3 py-1 w-fit rounded-2xl text-gray-5000">All</p>
+
+                            <!-- buttons -->
+                            <div class="mt-auto flex gap-2 pt-4 pb-3">
+                                <button class="btn btn-outline btn-sm flex-1 copyBtn"><i class="fa-solid fa-copy"></i> Copy</button>
+                                <button class="btn btn-success btn-sm text-white flex-1 callBtn"><i class="fa-solid fa-phone"></i> Call</button>
+                            </div>
+                        </div>
+
+                        <!-- card 2 -->
+                        <div class="bg-white rounded-xl shadow-md p-4 flex flex-col h-[360px]">
+                            <div class="flex justify-between items-start py-4">
+                                <img src="./B12-A5-Emergency-Hotline/assets/police.png" alt="police"
+                                    class="h-10 w-10" />
+
+                                <!-- heart Icon -->
+                                <button class="text-gray-400">♡</button>
+                            </div>
+
+                            <h3 class="mt-2 font-semibold">Plice Helpline Number</h3>
+                            <p class="text-sm text-gray-500">Police</p>
+                            <p class="text-2xl font-bold mt-2">999</p>
+                            <p class="flex justify-center items-center bg-gray-100 px-3 py-1 w-fit rounded-2xl text-gray-500">Police</p>
+
+                            <!-- buttons -->
+                            <div class="mt-auto flex gap-2 pt-4 pb-3">
+                                <button class="btn btn-outline btn-sm flex-1 copyBtn"><i class="fa-solid fa-copy"></i> Copy</button>
+                                <button class="btn btn-success btn-sm text-white flex-1 callBtn"><i class="fa-solid fa-phone"></i> Call</button>
+                            </div>
+                        </div>
+
+                        <!-- card 3 -->
+                        <div class="bg-white rounded-xl shadow-md p-4 flex flex-col h-[360px]">
+                            <div class="flex justify-between items-start py-4">
+                                <img src="./B12-A5-Emergency-Hotline/assets/fire-service.png" alt="fire service"
+                                    class="h-10 w-10" />
+
+                                <!-- heart Icon -->
+                                <button class="text-gray-400">♡</button>
+                            </div>
+
+                            <h3 class="mt-2 font-semibold">Fire Service Number</h3>
+                            <p class="text-sm text-gray-500">Fire Service</p>
+                            <p class="text-2xl font-bold mt-2">999</p>
+                            <p class="flex justify-center items-center bg-gray-100 px-3 py-1 w-fit rounded-2xl text-gray-500">Fire</p>
+
+                            <!-- buttons -->
+                            <div class="mt-auto flex gap-2 pt-4 pb-3">
+                                <button class="btn btn-outline btn-sm flex-1 copyBtn"><i class="fa-solid fa-copy"></i> Copy</button>
+                                <button class="btn btn-success btn-sm text-white flex-1 callBtn"><i class="fa-solid fa-phone"></i> Call</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- history  -->
+                <!-- right for history -->
+                <div class="col-span-1">
+
+                </div>
+            </div>
+
+        </section>
+    </main>
 
 </body>
 
